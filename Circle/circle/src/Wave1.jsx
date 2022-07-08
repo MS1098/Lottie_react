@@ -1,5 +1,6 @@
 import React from 'react';
 import { Wave } from  'react-animated-text';
+import "./circle.css"
 
 const exampleStyle = {
     display: 'inline-block',
@@ -25,8 +26,8 @@ const exampleStyle = {
 //   };
 
 export const Wave1 = () => (
-    <div style={exampleStyle}>
-      <Wave text="LOADING DATA" effect="stretch" effectChange={2.0}  />
+    <div className='example'>
+      <Wave text="LOUD MOB MEDIA" effect="stretch" effectChange={2.0}  />
   
       {/* <div style={codeDivStyle}>
         <pre style={codeStyle}>
