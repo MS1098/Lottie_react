@@ -29,15 +29,7 @@ export const Wave1 = () => (
     <div className='example'>
       <Wave text="LOUD MOB MEDIA" effect="stretch" effectChange={2.0}  />
   
-      {/* <div style={codeDivStyle}>
-        <pre style={codeStyle}>
-          &lt;Wave<br />
-          &nbsp;&nbsp;text="LOADING DATA"<br />
-          &nbsp;&nbsp;effect="stretch"<br />
-          &nbsp;&nbsp;effectChange={2.0}<br />
-        
-        </pre> */}
-      {/* </div> */}
+     
     </div>
   )
   

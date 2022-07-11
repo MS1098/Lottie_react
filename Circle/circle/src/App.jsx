@@ -1,5 +1,6 @@
 import React from 'react';
 import { Wave1 } from './Wave1';
+import { Ball } from './Ball';
 import './App.css'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
      <div className='circle'>
      <Wave1 />
+     <Ball/>
      </div>
     </div>
   )
